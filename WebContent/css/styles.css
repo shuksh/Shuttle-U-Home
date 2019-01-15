@@ -1,0 +1,63 @@
+/*///////////////////////////////////////////////////////////////////////////
+//  Style.css-Css for styling the jsp pages                         //
+//  version 2.0  (Date - 04/15/2018)                                       //
+//  Language:    CSS3                                                     //
+//  Platform:    Windows 10 Pro                                            //
+//  Application: Shuttle U Home CSE686 - Internet Programming              //
+//  Author:      Mona, Syracuse University           //
+////////////////////////////////////////////////////////////////////////////*/
+/*
+ *   Purpose
+ *   ------------------
+ *   For creating beautiful UI css file is used for styling the jsp pages.
+ *   Style for each form is done by creating classes to each button and other fields then setting their layouts
+ */
+
+
+@charset "ISO-8859-1";
+
+.container-full {
+	display: block;
+	margin: auto;
+	height: 150px;
+	padding-top: 0px;
+	background-color: #d44500;
+}
+
+.img-responsive {
+	margin: auto;
+	display: block;
+}
+
+.element {
+	width: 100%;
+	padding: 10px 0 14px 0;
+	border: 1px solid #AAAAAA;;
+	font-size: 14px;
+	border-radius: 4px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+}
+
+.form-button {
+	background: #D44500;
+	box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	color: #ffffff;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.form-button:hover {
+	background: #6F777D;
+}
+
+.form-button:focus {
+	outline: 0;
+	background: #6F777D;
+	box-shadow: 0 0 0 .1rem #fff, 0 0 0 .2rem #adb3b8;
+}
+
+.form-button:active {
+	background: #D44500;
+}
